@@ -8,17 +8,33 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  @StateObject private var auctionData = AuctionData()
+  
+  var body: some View {
+    NavigationView {
+      if let auctions = auctionData.auctions {
+        List(auctions) { auction in
+          NavigationLink(destination: AuctionDetailView(auction: auction)) {
+            AuctionRowView(auction: auction)
+          }
         }
-        .padding()
+        .navigationTitle("Auctions")
+      } else {
+        ProgressView("Loading auctions...")
+          .navigationTitle("Auctions")
+      }
     }
+  }
 }
 
-#Preview {
+private var dateFormatter: DateFormatter {
+  let formatter = DateFormatter()
+  formatter.dateStyle = .medium
+  return formatter
+}
+
+struct ContentView_Previews: PreviewProvider {
+  static var previews: some View {
     ContentView()
+  }
 }

@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct AuctionRowView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  let auction: Auction
+  
+  var body: some View {
+    VStack(alignment: .leading) {
+      Text(auction.auctionTitle)
+        .font(.headline)
+      Text("Seller: \(auction.seller)")
+        .font(.subheadline)
+        .foregroundStyle(.secondary)
+      Text("Sold for: \(auction.soldFor) USD")
+        .font(.subheadline)
+        .foregroundStyle(.primary)
     }
+  }
 }
 
-#Preview {
-    AuctionRowView()
-}
+//#Preview {
+//  AuctionRowView()
+//}
