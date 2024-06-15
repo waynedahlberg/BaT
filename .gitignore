@@ -1,0 +1,4 @@
+# Ignore all these types globally
+*.jpg
+*.png 
+*.mp4
