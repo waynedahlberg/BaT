@@ -20,7 +20,7 @@ struct ContentView: View {
         }
         .navigationTitle("Auctions")
       } else {
-        ProgressView("Loading auctions...")
+        ProgressView("Loading auctions")
           .navigationTitle("Auctions")
       }
     }
