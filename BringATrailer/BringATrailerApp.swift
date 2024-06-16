@@ -11,7 +11,8 @@ import SwiftUI
 struct BringATrailerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          SplashView()
+            /*ContentView()*/
         }
     }
 }

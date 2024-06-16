@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AuctionRowView: View {
+struct TestAuctionRowView: View {
   let auction: Auction
   
   var body: some View {

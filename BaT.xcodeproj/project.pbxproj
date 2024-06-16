@@ -15,6 +15,14 @@
 		B0951B1C2C1E1B6E0043FBCD /* video_a_03.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B0951B182C1E1B6E0043FBCD /* video_a_03.mp4 */; };
 		B0951B1D2C1E1B6E0043FBCD /* video_a_02.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B0951B192C1E1B6E0043FBCD /* video_a_02.mp4 */; };
 		B0951B1E2C1E1B6E0043FBCD /* video_a_04.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B0951B1A2C1E1B6E0043FBCD /* video_a_04.mp4 */; };
+		B0951B212C1E1EC20043FBCD /* AuctionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B202C1E1EC20043FBCD /* AuctionDetailView.swift */; };
+		B0951B232C1E1ED00043FBCD /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B222C1E1ED00043FBCD /* WatchlistView.swift */; };
+		B0951B252C1E1EF40043FBCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B242C1E1EF40043FBCD /* HomeView.swift */; };
+		B0951B272C1E1F1A0043FBCD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B262C1E1F1A0043FBCD /* TabView.swift */; };
+		B0951B2D2C1E617B0043FBCD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B0951B2C2C1E617B0043FBCD /* Lottie */; };
+		B0951B302C1E61A40043FBCD /* BaT Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B2F2C1E61A40043FBCD /* BaT Splash.json */; };
+		B0951B332C1E61CC0043FBCD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B322C1E61CC0043FBCD /* LottieView.swift */; };
+		B0951B352C1E649E0043FBCD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B342C1E649E0043FBCD /* SplashView.swift */; };
 		B09D56C92C1CFF9A00F5BD98 /* BringATrailerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56C82C1CFF9A00F5BD98 /* BringATrailerApp.swift */; };
 		B09D56CB2C1CFF9A00F5BD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56CA2C1CFF9A00F5BD98 /* ContentView.swift */; };
 		B09D56CD2C1CFF9B00F5BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09D56CC2C1CFF9B00F5BD98 /* Assets.xcassets */; };
@@ -29,8 +37,8 @@
 		B09D56EF2C1D487B00F5BD98 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56EE2C1D487B00F5BD98 /* FontManager.swift */; };
 		B09D56F12C1D4AA500F5BD98 /* AuctionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56F02C1D4AA500F5BD98 /* AuctionData.swift */; };
 		B09D57262C1E03D500F5BD98 /* auctions.json in Resources */ = {isa = PBXBuildFile; fileRef = B09D56DE2C1D448100F5BD98 /* auctions.json */; };
-		B09D57282C1E0BC200F5BD98 /* AuctionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D57272C1E0BC200F5BD98 /* AuctionDetailView.swift */; };
-		B09D572A2C1E0BD300F5BD98 /* AuctionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D57292C1E0BD300F5BD98 /* AuctionRowView.swift */; };
+		B09D57282C1E0BC200F5BD98 /* TestAuctionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D57272C1E0BC200F5BD98 /* TestAuctionDetailView.swift */; };
+		B09D572A2C1E0BD300F5BD98 /* TestAuctionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D57292C1E0BD300F5BD98 /* TestAuctionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +50,13 @@
 		B0951B182C1E1B6E0043FBCD /* video_a_03.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_a_03.mp4; sourceTree = "<group>"; };
 		B0951B192C1E1B6E0043FBCD /* video_a_02.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_a_02.mp4; sourceTree = "<group>"; };
 		B0951B1A2C1E1B6E0043FBCD /* video_a_04.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_a_04.mp4; sourceTree = "<group>"; };
+		B0951B202C1E1EC20043FBCD /* AuctionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionDetailView.swift; sourceTree = "<group>"; };
+		B0951B222C1E1ED00043FBCD /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
+		B0951B242C1E1EF40043FBCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0951B262C1E1F1A0043FBCD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		B0951B2F2C1E61A40043FBCD /* BaT Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "BaT Splash.json"; sourceTree = "<group>"; };
+		B0951B322C1E61CC0043FBCD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B0951B342C1E649E0043FBCD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		B09D56C52C1CFF9A00F5BD98 /* BaT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09D56C82C1CFF9A00F5BD98 /* BringATrailerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringATrailerApp.swift; sourceTree = "<group>"; };
 		B09D56CA2C1CFF9A00F5BD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +73,8 @@
 		B09D56ED2C1D47DC00F5BD98 /* BaT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BaT-Info.plist"; sourceTree = "<group>"; };
 		B09D56EE2C1D487B00F5BD98 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		B09D56F02C1D4AA500F5BD98 /* AuctionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionData.swift; sourceTree = "<group>"; };
-		B09D57272C1E0BC200F5BD98 /* AuctionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionDetailView.swift; sourceTree = "<group>"; };
-		B09D57292C1E0BD300F5BD98 /* AuctionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionRowView.swift; sourceTree = "<group>"; };
+		B09D57272C1E0BC200F5BD98 /* TestAuctionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAuctionDetailView.swift; sourceTree = "<group>"; };
+		B09D57292C1E0BD300F5BD98 /* TestAuctionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAuctionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,12 +82,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0951B2D2C1E617B0043FBCD /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0951B1F2C1E1EAD0043FBCD /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				B09D57272C1E0BC200F5BD98 /* TestAuctionDetailView.swift */,
+				B09D57292C1E0BD300F5BD98 /* TestAuctionRowView.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		B0951B282C1E284B0043FBCD /* Auction Detail View */ = {
+			isa = PBXGroup;
+			children = (
+				B0951B202C1E1EC20043FBCD /* AuctionDetailView.swift */,
+			);
+			path = "Auction Detail View";
+			sourceTree = "<group>";
+		};
+		B0951B292C1E28580043FBCD /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				B0951B242C1E1EF40043FBCD /* HomeView.swift */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		B0951B2A2C1E28680043FBCD /* Watchlist View */ = {
+			isa = PBXGroup;
+			children = (
+				B0951B222C1E1ED00043FBCD /* WatchlistView.swift */,
+			);
+			path = "Watchlist View";
+			sourceTree = "<group>";
+		};
+		B0951B2E2C1E61940043FBCD /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				B0951B2F2C1E61A40043FBCD /* BaT Splash.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B0951B312C1E61BE0043FBCD /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B0951B322C1E61CC0043FBCD /* LottieView.swift */,
+				B0951B342C1E649E0043FBCD /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		B09D56BC2C1CFF9A00F5BD98 = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +191,12 @@
 		B09D56D72C1D044600F5BD98 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B09D57272C1E0BC200F5BD98 /* AuctionDetailView.swift */,
-				B09D57292C1E0BD300F5BD98 /* AuctionRowView.swift */,
+				B0951B312C1E61BE0043FBCD /* Splash */,
+				B0951B262C1E1F1A0043FBCD /* TabView.swift */,
+				B0951B292C1E28580043FBCD /* Home View */,
+				B0951B282C1E284B0043FBCD /* Auction Detail View */,
+				B0951B2A2C1E28680043FBCD /* Watchlist View */,
+				B0951B1F2C1E1EAD0043FBCD /* Testing */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,6 +204,7 @@
 		B09D56D82C1D044E00F5BD98 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B0951B2E2C1E61940043FBCD /* Lottie */,
 				B09D56E22C1D46F100F5BD98 /* Videos */,
 				B09D56DD2C1D447300F5BD98 /* Data */,
 				B09D56D92C1D045500F5BD98 /* Fonts */,
@@ -201,6 +272,9 @@
 			dependencies = (
 			);
 			name = BaT;
+			packageProductDependencies = (
+				B0951B2C2C1E617B0043FBCD /* Lottie */,
+			);
 			productName = BringATrailer;
 			productReference = B09D56C52C1CFF9A00F5BD98 /* BaT.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +303,9 @@
 				Base,
 			);
 			mainGroup = B09D56BC2C1CFF9A00F5BD98;
+			packageReferences = (
+				B0951B2B2C1E617B0043FBCD /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B09D56C62C1CFF9A00F5BD98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,6 +331,7 @@
 				B0951B152C1E1B590043FBCD /* video_b_01.mp4 in Resources */,
 				B09D57262C1E03D500F5BD98 /* auctions.json in Resources */,
 				B09D56E82C1D47BC00F5BD98 /* OpenSans-Light.ttf in Resources */,
+				B0951B302C1E61A40043FBCD /* BaT Splash.json in Resources */,
 				B09D56EA2C1D47BC00F5BD98 /* OpenSans-SemiBold.ttf in Resources */,
 				B0951B1D2C1E1B6E0043FBCD /* video_a_02.mp4 in Resources */,
 				B0951B1B2C1E1B6E0043FBCD /* video_a_01.mp4 in Resources */,
@@ -271,12 +349,18 @@
 			files = (
 				B09D56EF2C1D487B00F5BD98 /* FontManager.swift in Sources */,
 				B09D56CB2C1CFF9A00F5BD98 /* ContentView.swift in Sources */,
+				B0951B212C1E1EC20043FBCD /* AuctionDetailView.swift in Sources */,
 				B09D56DC2C1D446900F5BD98 /* Auction.swift in Sources */,
 				B09D56C92C1CFF9A00F5BD98 /* BringATrailerApp.swift in Sources */,
+				B0951B252C1E1EF40043FBCD /* HomeView.swift in Sources */,
 				B09D56E12C1D45A700F5BD98 /* Extension+Bundle.swift in Sources */,
-				B09D572A2C1E0BD300F5BD98 /* AuctionRowView.swift in Sources */,
-				B09D57282C1E0BC200F5BD98 /* AuctionDetailView.swift in Sources */,
+				B09D572A2C1E0BD300F5BD98 /* TestAuctionRowView.swift in Sources */,
+				B0951B332C1E61CC0043FBCD /* LottieView.swift in Sources */,
+				B0951B232C1E1ED00043FBCD /* WatchlistView.swift in Sources */,
+				B09D57282C1E0BC200F5BD98 /* TestAuctionDetailView.swift in Sources */,
+				B0951B272C1E1F1A0043FBCD /* TabView.swift in Sources */,
 				B09D56F12C1D4AA500F5BD98 /* AuctionData.swift in Sources */,
+				B0951B352C1E649E0043FBCD /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +568,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B0951B2B2C1E617B0043FBCD /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B0951B2C2C1E617B0043FBCD /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B0951B2B2C1E617B0043FBCD /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B09D56BD2C1CFF9A00F5BD98 /* Project object */;
 }

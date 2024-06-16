@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct AuctionDetailView: View {
+struct TestAuctionDetailView: View {
   @Environment(\.openURL) var openURL
   
   let auction: Auction

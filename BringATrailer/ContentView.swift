@@ -14,8 +14,11 @@ struct ContentView: View {
     NavigationView {
       if let auctions = auctionData.auctions {
         List(auctions) { auction in
-          NavigationLink(destination: AuctionDetailView(auction: auction)) {
-            AuctionRowView(auction: auction)
+          NavigationLink(destination: TestAuctionDetailView(auction: auction)) {
+            TestAuctionRowView(auction: auction)
+          }
+          NavigationLink(destination: LottieView()) {
+            Text("Lottie Splash")
           }
         }
         .navigationTitle("Auctions")
