@@ -21,6 +21,8 @@ struct HomeView: View {
           }
         }
       }
+      .navigationTitle("Auctions")
+      .navigationBarTitleDisplayMode(.large)
     }
   }
 }
@@ -32,7 +34,7 @@ struct AuctionRowView: View {
     VStack(alignment: .leading, spacing: 8) {
       Text(auction.auctionTitle)
         .font(.headline)
-      Text("Current Bid: $\(auction.soldFor, specifier: "%.2f")")
+      Text("Current Bid: $\(auction.soldFor)")
         .foregroundStyle(.secondary)
     }
   }

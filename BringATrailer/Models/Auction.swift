@@ -18,11 +18,11 @@ struct Auction: Identifiable, Decodable {
   let auctionTitle: String
   let seller: String
   let buyer: String
-  let soldFor: Int
+  let soldFor: String
   let auctionStarted: Date
   let auctionEnded: Date
-  let views: Int
-  let watchers: Int
+  let views: String
+  let watchers: String
   let shareURL: URL
   let commentsNumber: Int
   let sellerLocation: String
