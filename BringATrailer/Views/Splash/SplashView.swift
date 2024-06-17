@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+// TODO: - make sure the splash animation and the temporary splash image align correctly. The app icon should fade into the splash image. Loading happens while "Bring A Trailer" is displayed, once loading is finished, animation concludes and tows away the logo. Neat.
+
 struct SplashView: View {
   @State private var isActive: Bool = false
   @State private var showLottieView: Bool = true
     
-  let duration = 4.5
+  let duration = 3.0
   
   var body: some View {
     ZStack {

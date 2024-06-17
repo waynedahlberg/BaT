@@ -20,9 +20,12 @@
 		B0951B252C1E1EF40043FBCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B242C1E1EF40043FBCD /* HomeView.swift */; };
 		B0951B272C1E1F1A0043FBCD /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B262C1E1F1A0043FBCD /* AppView.swift */; };
 		B0951B2D2C1E617B0043FBCD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B0951B2C2C1E617B0043FBCD /* Lottie */; };
-		B0951B302C1E61A40043FBCD /* BaT Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B2F2C1E61A40043FBCD /* BaT Splash.json */; };
+		B0951B302C1E61A40043FBCD /* BaT Splash-OLD.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B2F2C1E61A40043FBCD /* BaT Splash-OLD.json */; };
 		B0951B332C1E61CC0043FBCD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B322C1E61CC0043FBCD /* LottieView.swift */; };
 		B0951B352C1E649E0043FBCD /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B342C1E649E0043FBCD /* SplashView.swift */; };
+		B0951B372C20B9F20043FBCD /* BaT Splash-NEW.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B362C20B9F20043FBCD /* BaT Splash-NEW.json */; };
+		B0951B392C20BAA40043FBCD /* Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B382C20BAA40043FBCD /* Splash.json */; };
+		B0951B3B2C20BCEA0043FBCD /* static.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B3A2C20BCEA0043FBCD /* static.json */; };
 		B09D56C92C1CFF9A00F5BD98 /* BringATrailerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56C82C1CFF9A00F5BD98 /* BringATrailerApp.swift */; };
 		B09D56CB2C1CFF9A00F5BD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09D56CA2C1CFF9A00F5BD98 /* ContentView.swift */; };
 		B09D56CD2C1CFF9B00F5BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09D56CC2C1CFF9B00F5BD98 /* Assets.xcassets */; };
@@ -54,9 +57,12 @@
 		B0951B222C1E1ED00043FBCD /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
 		B0951B242C1E1EF40043FBCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B0951B262C1E1F1A0043FBCD /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
-		B0951B2F2C1E61A40043FBCD /* BaT Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "BaT Splash.json"; sourceTree = "<group>"; };
+		B0951B2F2C1E61A40043FBCD /* BaT Splash-OLD.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "BaT Splash-OLD.json"; sourceTree = "<group>"; };
 		B0951B322C1E61CC0043FBCD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		B0951B342C1E649E0043FBCD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B0951B362C20B9F20043FBCD /* BaT Splash-NEW.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "BaT Splash-NEW.json"; sourceTree = "<group>"; };
+		B0951B382C20BAA40043FBCD /* Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Splash.json; sourceTree = "<group>"; };
+		B0951B3A2C20BCEA0043FBCD /* static.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = static.json; sourceTree = "<group>"; };
 		B09D56C52C1CFF9A00F5BD98 /* BaT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09D56C82C1CFF9A00F5BD98 /* BringATrailerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BringATrailerApp.swift; sourceTree = "<group>"; };
 		B09D56CA2C1CFF9A00F5BD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -125,7 +131,10 @@
 		B0951B2E2C1E61940043FBCD /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				B0951B2F2C1E61A40043FBCD /* BaT Splash.json */,
+				B0951B3A2C20BCEA0043FBCD /* static.json */,
+				B0951B382C20BAA40043FBCD /* Splash.json */,
+				B0951B362C20B9F20043FBCD /* BaT Splash-NEW.json */,
+				B0951B2F2C1E61A40043FBCD /* BaT Splash-OLD.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -331,11 +340,14 @@
 				B0951B152C1E1B590043FBCD /* video_b_01.mp4 in Resources */,
 				B09D57262C1E03D500F5BD98 /* auctions.json in Resources */,
 				B09D56E82C1D47BC00F5BD98 /* OpenSans-Light.ttf in Resources */,
-				B0951B302C1E61A40043FBCD /* BaT Splash.json in Resources */,
+				B0951B3B2C20BCEA0043FBCD /* static.json in Resources */,
+				B0951B302C1E61A40043FBCD /* BaT Splash-OLD.json in Resources */,
 				B09D56EA2C1D47BC00F5BD98 /* OpenSans-SemiBold.ttf in Resources */,
 				B0951B1D2C1E1B6E0043FBCD /* video_a_02.mp4 in Resources */,
 				B0951B1B2C1E1B6E0043FBCD /* video_a_01.mp4 in Resources */,
+				B0951B372C20B9F20043FBCD /* BaT Splash-NEW.json in Resources */,
 				B0951B1C2C1E1B6E0043FBCD /* video_a_03.mp4 in Resources */,
+				B0951B392C20BAA40043FBCD /* Splash.json in Resources */,
 				B09D56CD2C1CFF9B00F5BD98 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
