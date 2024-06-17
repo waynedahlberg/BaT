@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct HomeView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+  @StateObject private var auctionData = AuctionData()
+  
+  var body: some View {
+    if let auctions = auctionData.auctions {
+      List(auctions) { auction in
+        NavigationLink(destination: AuctionDetailView(auction: auction)) {
+          TestAuctionRowView(auction: auction)
+        }
+      }
+      .navigationTitle("Auctions")
+    } else {
+      ProgressView("Loading auctions")
+        .navigationTitle("Auctions")
     }
+  }
 }
 
 #Preview {

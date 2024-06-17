@@ -9,22 +9,14 @@ import SwiftUI
 
 struct AuctionDetailView: View {
   @StateObject private var auctionData = AuctionData()
+  @State var auction: Auction
   
   var body: some View {
-    if let auctions = auctionData.auctions {
-      List(auctions) { auction in
-        NavigationLink(destination: TestAuctionDetailView(auction: auction)) {
-          TestAuctionRowView(auction: auction)
-        }
-      }
-      .navigationTitle("Auctions")
-    } else {
-      ProgressView("Loading auctions")
-        .navigationTitle("Auctions")
-    }
+    Text("Hello World!")
+    Text("The auction name is: \(auction.auctionTitle)")
   }
 }
 
 #Preview {
-  AuctionDetailView()
+  AuctionDetailView(auction: AuctionData().auctions![0])
 }

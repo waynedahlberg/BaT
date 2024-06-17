@@ -12,7 +12,6 @@ struct BringATrailerApp: App {
     var body: some Scene {
         WindowGroup {
           SplashView()
-            /*ContentView()*/
         }
     }
 }
