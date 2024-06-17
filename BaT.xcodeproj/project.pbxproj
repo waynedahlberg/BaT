@@ -18,7 +18,7 @@
 		B0951B212C1E1EC20043FBCD /* AuctionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B202C1E1EC20043FBCD /* AuctionDetailView.swift */; };
 		B0951B232C1E1ED00043FBCD /* WatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B222C1E1ED00043FBCD /* WatchlistView.swift */; };
 		B0951B252C1E1EF40043FBCD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B242C1E1EF40043FBCD /* HomeView.swift */; };
-		B0951B272C1E1F1A0043FBCD /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B262C1E1F1A0043FBCD /* TabView.swift */; };
+		B0951B272C1E1F1A0043FBCD /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B262C1E1F1A0043FBCD /* AppView.swift */; };
 		B0951B2D2C1E617B0043FBCD /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B0951B2C2C1E617B0043FBCD /* Lottie */; };
 		B0951B302C1E61A40043FBCD /* BaT Splash.json in Resources */ = {isa = PBXBuildFile; fileRef = B0951B2F2C1E61A40043FBCD /* BaT Splash.json */; };
 		B0951B332C1E61CC0043FBCD /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0951B322C1E61CC0043FBCD /* LottieView.swift */; };
@@ -53,7 +53,7 @@
 		B0951B202C1E1EC20043FBCD /* AuctionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionDetailView.swift; sourceTree = "<group>"; };
 		B0951B222C1E1ED00043FBCD /* WatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistView.swift; sourceTree = "<group>"; };
 		B0951B242C1E1EF40043FBCD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B0951B262C1E1F1A0043FBCD /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		B0951B262C1E1F1A0043FBCD /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		B0951B2F2C1E61A40043FBCD /* BaT Splash.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "BaT Splash.json"; sourceTree = "<group>"; };
 		B0951B322C1E61CC0043FBCD /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		B0951B342C1E649E0043FBCD /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -192,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				B0951B312C1E61BE0043FBCD /* Splash */,
-				B0951B262C1E1F1A0043FBCD /* TabView.swift */,
+				B0951B262C1E1F1A0043FBCD /* AppView.swift */,
 				B0951B292C1E28580043FBCD /* Home View */,
 				B0951B282C1E284B0043FBCD /* Auction Detail View */,
 				B0951B2A2C1E28680043FBCD /* Watchlist View */,
@@ -358,7 +358,7 @@
 				B0951B332C1E61CC0043FBCD /* LottieView.swift in Sources */,
 				B0951B232C1E1ED00043FBCD /* WatchlistView.swift in Sources */,
 				B09D57282C1E0BC200F5BD98 /* TestAuctionDetailView.swift in Sources */,
-				B0951B272C1E1F1A0043FBCD /* TabView.swift in Sources */,
+				B0951B272C1E1F1A0043FBCD /* AppView.swift in Sources */,
 				B09D56F12C1D4AA500F5BD98 /* AuctionData.swift in Sources */,
 				B0951B352C1E649E0043FBCD /* SplashView.swift in Sources */,
 			);

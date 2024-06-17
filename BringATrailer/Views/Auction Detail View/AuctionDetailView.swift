@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct AuctionDetailView: View {
-  @StateObject private var auctionData = AuctionData()
-  @State var auction: Auction
+  let auction: Auction
   
   var body: some View {
-    Text("Hello World!")
-    Text("The auction name is: \(auction.auctionTitle)")
+    VStack {
+      Text("Hello world!")
+      Text("This auction is a \(auction.auctionTitle)")
+    }
   }
 }
 
 #Preview {
-  AuctionDetailView(auction: AuctionData().auctions![0])
+  AuctionDetailView(auction: Bundle.main.decode([Auction].self, from: "auctions.json").first!)
 }

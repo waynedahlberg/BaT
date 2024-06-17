@@ -11,20 +11,33 @@ struct HomeView: View {
   @StateObject private var auctionData = AuctionData()
   
   var body: some View {
-    if let auctions = auctionData.auctions {
-      List(auctions) { auction in
-        NavigationLink(destination: AuctionDetailView(auction: auction)) {
-          TestAuctionRowView(auction: auction)
+    NavigationStack {
+      Group {
+        if let auctions = auctionData.auctions, !auctions.isEmpty {
+          List(auctions) { auction in
+            NavigationLink(destination: AuctionDetailView(auction: auction)) {
+              AuctionRowView(auction: auction)
+            }
+          }
         }
       }
-      .navigationTitle("Auctions")
-    } else {
-      ProgressView("Loading auctions")
-        .navigationTitle("Auctions")
     }
   }
 }
 
+struct AuctionRowView: View {
+  let auction: Auction
+  
+  var body: some View {
+    VStack(alignment: .leading, spacing: 8) {
+      Text(auction.auctionTitle)
+        .font(.headline)
+      Text("Current Bid: $\(auction.soldFor, specifier: "%.2f")")
+        .foregroundStyle(.secondary)
+    }
+  }
+}
+  
 #Preview {
     HomeView()
 }

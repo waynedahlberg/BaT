@@ -12,12 +12,7 @@ struct AppView: View {
   
   var body: some View {
     TabView(selection: self.$selectedTab) {
-      VStack(spacing: 20) {
-        Button("Go to Watchlist") { self.selectedTab = 1}
-        Button("Go to Search") { self.selectedTab = 2 }
-        Button("Go to Listings") { self.selectedTab = 3}
-        Button("Go to Account") { self.selectedTab = 4 }
-      }.tabItem {
+      HomeView().tabItem {
         Label("Home", image: "home")
           .tint(self.selectedTab == 0 ? .red : .blue)
       }.tag(0)
